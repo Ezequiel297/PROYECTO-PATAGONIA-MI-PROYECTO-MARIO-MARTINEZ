@@ -2,37 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
+
     }
 
+    body{
+        background-color: grey;
+    }
 
 
 /*HEADER*/
 
 header{
-    display: flex;
-    background-color: #1C1427;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    position: sticky;
-    top: 0  ;
-    width: 100;
-    grid-template-columns: 50px 50px;
-
-}
-
-header div{
-width: 100%;
-padding-left: 20px;
+display: flex;
+justify-content: center  ;
+align-items: center;
+flex-wrap: wrap-reverse;
+background-color: #40394A;
 }
 
 .nabvar{
-    list-style: none;
-    display: flex;
-    gap: 1.875rem;
-    padding-right: 380px;
-    font-size: 1.875rem;
+display: flex;
+gap: .625rem;
+list-style: none;
+justify-content: center;
 }
 
 .nabvar li a {
@@ -41,21 +34,6 @@ padding-left: 20px;
     font-size: 40px;
 }
  
-
-/*MAIN*/
-.sectionPrincipal h1{
-    color: #CCFFBD;
-    font-size: 100px;
-    letter-spacing: .625rem ;
-}
-
-h2{
-    color: #CCFFBD;
-}
-
-p{
-    color: #CCFFBD;
-}
 
 
 /*
@@ -68,104 +46,79 @@ BEM: bloque
 */
 
 .sectionPrincipal{
-    display: flex;
-    text-align: center;
-    background-image: url("../assent/img/montañaback.png");
-    height: 43.75rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    width: 100%;
+width: 100%;
+height: 500px;
+display: flex;
+align-items: center;
+background-image: url(../assent/img/montañaback.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+}
+
+
+.sectionPrincipal div{
+color: #CCFFBD;
+font-size: 40px;
+margin-top: -340px;
 }
 
 .sectionSecundaria{
-    display: flex;
-    background-image: url(../assent/img/Home.jpg);
-    background-position: 50%;
-    background-size: cover;
-    text-align: center;
-    height: 18.75rem;
-    width: 100%;
-    flex-direction: row;
-
+width: 100%;
+height: 200px;
+display: flex;
+align-items: center;
+background-image: url(../assent/img/montañafondo.jpg);
+background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-.sectionSecundaria h2{
-    margin-top: 30px;
-    font-size: 40px;
-    text-shadow: 2px 2px black;
-
+.sectionSecundaria div h2{
+    margin-left: 570px;
+    margin-top: 10px;
+color: #CCFFBD;
+text-shadow: 2px 2px black;
 }
 
 .sectionSecundaria div p{
-    margin-top: 30px;
-    font-size: 25px;
-        text-shadow: 2px 2px black;
+    margin-left: 25px;
+    text-align: center;
+    color: #CCFFBD;
+    text-shadow: 2px 2px black;
 }
 
 .sectionSecundaria div button{
-font-size: 1.875rem;
-background-color: #7ECA9C;
+margin-left: 280px;
+padding: 5px 5px;
 border: none;
-border-radius: 1.25rem;
-margin-top: 1.25rem;
-padding: .625rem;
+border-radius: 30px;
+background-color: #CCFFBD;
+
 
 }
 
 .sectionSecundaria button a{
-    text-decoration: none;
-}
-
-.sectionTercero{
-display: flex;
-flex-direction: row;
-background-color: #7ECA9C;
-justify-content: center;
-width: 100%;
-}
-
-
-.sectionTercero nav{
-padding-left: 70px;
-gap: 12.5rem;
-}
-
-.sectionTercero nav a{
-    background-color: #7ECA9C;
-    font-size: 40px;
-    text-decoration: none;
+font-size: 20px;
 }
 
 .preFooter{
-    background-color: #40394a;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
+background-color: #40394A;
+
 }
 
 .preFooter h3{
-    color: #CCFFBD;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif  ;
+color: #CCFFBD;
+
+
 }
 
 .sectionCuarta{
-    background-color: #40394A;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    height: 120px;
-}
-.sectionCuarta div{
-    width: 100%;
-    flex-direction: row;
-    padding-left: 235px;
-gap: 25rem;
-margin-top: 40px;
+display: flex;
+justify-content:center;
+background-color: #40394A;
 }
 
 /*--------------------------TIENDA------------------------*/
@@ -400,35 +353,25 @@ margin-top: 15px;
 
 .headerNosotros{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #1C1427;
-    width: 100%;
     height: 100px;
 }
 
-.headerNosotros main{
-    width: 100%;
-    padding-left: 20px;
-}
-
-.headerNosotros main h1{
+.headerNosotros h1{
     color: #CCFFBD;
 }
 
 .nabvarNosotros{
     list-style: none;
     display: flex;
-    gap: 1.875rem;
-    padding-right: 290px;
-    font-size: 40px;
 }
 
 .nabvarNosotros li a{
     color: #CCFFBD;
     text-decoration: none;
-    
+    font-size: 40px;
 }
 
 .sectionPrincipalNosotros{
@@ -480,18 +423,12 @@ background-color: #CCFFBD;
 
 .sectionCuartaNosotros{
     display: flex;
-    flex-direction: row;
 background-color: #40394A;
-height: 100px;
+justify-content: center;
+
 }
 
-.sectionCuartaNosotros div{
-    display: flex;
-    flex-direction: row;
-    padding-left: 170px;
-gap: 25rem;
-margin-top: 15px;
-}
+
 
 
 /*-----------------------NOVEDADES----------------------------*/
@@ -616,20 +553,53 @@ margin-top: 15px;
 
 
 
-/*------------GRID--------------*/
+/*------------RESPONSIVE--------------*/
 
-@media (max-width:1024px){
-
+@media (max-width: 1024px){
+.sectionPrincipal div{
+    flex-direction: column;
+    color: #CCFFBD;
+justify-content: center;
+}
+.sectionSecundaria{
+    display: none;
+}
 } 
 
 
-
-@media (max-width:768px){
+@media (max-width: 768px){
     header{
         flex-direction: column;
     }
+    .sectionPrincipal div{
+        margin-top: -290px;
+    }
+    .sectionSecundariaNosotros p{
+        font-size: 20px;
+    }
+    .nabvarNosotros li a{
+        font-size: 20px;
+    }
+.sectionPrincipalNosotros h1{
+    font-size: 25px;
+}
 }
 
+@media (max-width: 425px){
+    header{
+        flex-direction: column;
+    }
+    .nabvar li a {
+
+        font-size: 20px;
+    }
+    .sectionPrincipal div{
+        margin-top: -270px;
+    }
+    .preFooterNosotros h3{
+        font-size: 20px;
+    }
+}
 
 
 
