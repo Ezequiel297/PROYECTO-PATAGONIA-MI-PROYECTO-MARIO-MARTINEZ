@@ -110,32 +110,6 @@ background-color: #40394A;
 }
 
 /*--------------------------TIENDA------------------------*/
-header{
-    display: flex;
-    justify-content: center  ;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    background-color: #40394A;
-    }
-    
-
-.nabvarTienda{
-    display: flex;
-    gap: .625rem;
-    list-style: none;
-    justify-content: center;
-}
-
-.nabvarTienda li a{
-    text-decoration: none;
-    color: #CCFFBD;
-    font-size: 40px;
-}
-
-
-.headerTienda main h1{
-    color: #CCFFBD;
-}
 
 .sectionSecundariaTienda{
     background-image: url(../assent/img/bosquefondotienda.jpg);
@@ -204,28 +178,6 @@ align-items: center;
 
 /*-------------------CONTACTO------------------------------*/
 
-header{
-    display: flex;
-    justify-content: center  ;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    background-color: #40394A;
-    }
-    
-
-.nabvarContacto{
-    display: flex;
-    gap: .625rem;
-    list-style: none;
-    justify-content: center;
-}
-
-.nabvarContacto li a{
-    text-decoration: none;
-    color: #CCFFBD;
-    font-size: 40px;
-}
-
 .sectionPrincipalContacto{
     background-color: #CCFFBD;
     height: 40px;
@@ -274,27 +226,6 @@ font-size: 60px;
 }
 
 /*----------------------------NOSOTROS-------------------------------*/
-
-header{
-    display: flex;
-    justify-content: center  ;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    background-color: #40394A;
-    }
-
-.nabvarNosotros{
-    display: flex;
-    gap: .625rem;
-    list-style: none;
-    justify-content: center;
-}
-
-.nabvarNosotros li a{
-    color: #CCFFBD;
-    text-decoration: none;
-    font-size: 40px;
-}
 
 .sectionPrincipalNosotros{
 background-color: #CCFFBD;    
@@ -364,30 +295,6 @@ justify-content: center;
 
 /*-----------------------NOVEDADES----------------------------*/
 
-header{
-    display: flex;
-    justify-content: center  ;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    background-color: #40394A;
-    }
-
-.headerNovedades main h1{
-    color: #CCFFBD;
-}
-
-.nabvarNovedades{
-    display: flex;
-    gap: .625rem;
-    list-style: none;
-    justify-content: center;
-}
-
-.nabvarNovedades li a{
-    text-decoration: none;
-    color: #CCFFBD;
-    font-size: 40px;
-}
 
 .sectionPrincipalNovedades{
     background-color: #CCFFBD;
