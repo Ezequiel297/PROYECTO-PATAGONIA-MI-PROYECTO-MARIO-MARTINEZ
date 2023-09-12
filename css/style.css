@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
 
 /*HEADER*/
@@ -53,8 +53,11 @@ background-position: 50%;
 
 .sectionPrincipal div{
 color: #CCFFBD;
-font-size: 40px;
 margin-top: -340px;
+}
+
+.sectionPrincipal h1{
+    font-size: 60px;
 }
 
 .sectionSecundaria{
@@ -69,7 +72,7 @@ background-size: cover;
 }
 
 .sectionSecundaria div h2{
-    margin-left: 610px;
+text-align: center;
     margin-top: 10px;
 color: #CCFFBD;
 text-shadow: 2px 2px black;
@@ -82,18 +85,9 @@ text-shadow: 2px 2px black;
     text-shadow: 2px 2px black;
 }
 
-.sectionSecundaria div button{
-margin-left: 310px;
-padding: 5px 5px;
-border: none;
-border-radius: 30px;
-background-color: #CCFFBD;
-
-
-}
-
-.sectionSecundaria button a{
-font-size: 20px;
+.contenedor button{
+    color: #CCFFBD;
+    font-size: 20px;
 }
 
 .preFooter{
@@ -116,14 +110,14 @@ background-color: #40394A;
 }
 
 /*--------------------------TIENDA------------------------*/
-
-.headerTienda{
+header{
     display: flex;
     justify-content: center  ;
     align-items: center;
     flex-wrap: wrap-reverse;
     background-color: #40394A;
-}
+    }
+    
 
 .nabvarTienda{
     display: flex;
@@ -158,12 +152,15 @@ background-color: #40394A;
 
 .sectionSecundariaTienda p{
  color: black;
+ height: 40px;
 
 }
 
 
 .sectionPrincipalTienda{
 background-color: #CCFFBD;
+height: 40px;
+
 }
 
 
@@ -207,18 +204,14 @@ align-items: center;
 
 /*-------------------CONTACTO------------------------------*/
 
-.headerContacto{
+header{
     display: flex;
     justify-content: center  ;
     align-items: center;
     flex-wrap: wrap-reverse;
     background-color: #40394A;
-
-}
-
-.headerContacto main h1{
-    color: #CCFFBD;
-}
+    }
+    
 
 .nabvarContacto{
     display: flex;
@@ -235,6 +228,8 @@ align-items: center;
 
 .sectionPrincipalContacto{
     background-color: #CCFFBD;
+    height: 40px;
+
 }
 
 .sectionPrincipalContacto h1{
@@ -246,7 +241,6 @@ font-size: 30px;
 .sectionSecundariaContacto{
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: center;
     align-items: center;
     background-image: url(../assent/img/fondocontacto.jpg);
@@ -256,31 +250,8 @@ font-size: 30px;
     height: 500px;
 }
 
-.sectionSecundariaContacto legend{
-    color: #1C1427;
-    text-align: center;
-    font-size: 50px;
-    flex-wrap: nowrap;
-display: flex;
-}
-
-
-.sectionSecundariaContacto form{
-    color: #1C1427;
-}
-
-.sectionSecundariaContacto fieldset{
-border-radius: 15px;
-}
-
-.sectionSecundariaContacto main label{
-    font-size: 40px;
-    color: #1C1427;
-}
-
-.sectionSecundariaContacto main input{
-    font-size: 20px;
-    border-radius: 10px;
+.mainContacto div{
+font-size: 60px;
 }
 
 .preFooterContacto{
@@ -304,14 +275,13 @@ border-radius: 15px;
 
 /*----------------------------NOSOTROS-------------------------------*/
 
-.headerNosotros{
+header{
     display: flex;
     justify-content: center  ;
     align-items: center;
     flex-wrap: wrap-reverse;
     background-color: #40394A;
-
-}
+    }
 
 .nabvarNosotros{
     display: flex;
@@ -328,6 +298,7 @@ border-radius: 15px;
 
 .sectionPrincipalNosotros{
 background-color: #CCFFBD;    
+height: 40px;
 }
 
 .sectionPrincipalNosotros h1{
@@ -350,11 +321,23 @@ background-color: #CCFFBD;
 }
 
 .sectionSecundariaNosotros p{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #CCFFBD;
     font-weight: bolder ;
     text-shadow: 2px 2px black;
+}
+
+.nuestraHistoria h1 {
+    color: #CCFFBD;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nuestraHistoria button{
+    font-size: 20px;
+    color: #CCFFBD;
+    border-color: #CCFFBD;
 }
 
 .preFooterNosotros{
@@ -381,14 +364,13 @@ justify-content: center;
 
 /*-----------------------NOVEDADES----------------------------*/
 
-.headerNovedades{
+header{
     display: flex;
     justify-content: center  ;
     align-items: center;
     flex-wrap: wrap-reverse;
     background-color: #40394A;
-}
-
+    }
 
 .headerNovedades main h1{
     color: #CCFFBD;
@@ -409,6 +391,8 @@ justify-content: center;
 
 .sectionPrincipalNovedades{
     background-color: #CCFFBD;
+    height: 40px;
+
 }
 
 .sectionPrincipalNovedades h2{
@@ -445,6 +429,7 @@ justify-content: center;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.507);
+    margin-top: 20px;
     
 }
 
@@ -512,6 +497,11 @@ justify-content: center;
 .sectionPrincipalNosotros h1{
     font-size: 25px;
 }
+
+.nabvar li a {
+    font-size: 30 px;
+}
+
 }
 
 @media (max-width: 425px){
@@ -528,14 +518,38 @@ justify-content: center;
     .preFooterNosotros h3{
         font-size: 20px;
     }
+
+.sectionSecundariaNosotros p {
+    font-size: 15px;
+}
+
+.nuestraHistoria h1{
+    font-size: 15px;
+}
+
 }
 
 
+/*-------------GRID----------------*/
 
 
+.contenedor {
+  display: grid;
+  grid-template-rows: repeat(1, 50px); 
+  grid-template-columns: repeat(2, 50%); 
+  gap: 5px; 
+background-color: #1C1427;
+}
 
-
-
+.nuestraHistoria{
+    display: grid;
+    grid-template-rows: repeat(1, 50px); 
+    grid-template-columns: repeat(2, 50%); 
+    gap: 5px; 
+    background-color: #1C1427;
+    align-items: center;
+justify-content: center;
+}
 
 
 
