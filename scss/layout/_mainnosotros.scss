@@ -1,0 +1,31 @@
+.sectionSecundariaNosotros{
+    background-image: url(../assent/img/fondonosotros.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+display: flex;
+height: 500px;
+     p{
+        color: whitesmoke;
+        font-size: 20px;
+        text-shadow: 2px 2px black;
+        text-align: center;
+        margin-top: 60px;
+     }
+
+
+}
+
+.nuestraHistoria{
+    background-color: #162a4e;
+    h1{
+        color: #d8c2ff;
+        text-shadow: 2px 2px black;
+        text-align: center;
+        }
+        button{
+            color: #d8c2ff;;
+            border-color: #d8c2ff;
+            font-size: 20px;
+    }
+}

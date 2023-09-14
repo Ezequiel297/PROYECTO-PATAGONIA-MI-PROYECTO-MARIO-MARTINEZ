@@ -1,0 +1,20 @@
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+    .sectionPrincipal div{
+        margin-top: -290px;
+    }
+    .sectionSecundariaNosotros p{
+        font-size: 20px;
+    }
+    .nabvarNosotros li a{
+        font-size: 20px;
+    }
+.sectionPrincipalNosotros h1{
+    font-size: 25px;
+}
+.nabvar li a {
+    font-size: 30 px;
+}
+}

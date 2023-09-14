@@ -1,482 +1,344 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-/*HEADER*/
-
-header{
-display: flex;
-justify-content: center  ;
-align-items: center;
-flex-wrap: wrap-reverse;
-background-color: #40394A;
+header {
+  background-color: #00000f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+header nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  justify-content: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #868bee;
+  font-size: 37px;
+  font-family: "Plantin MT Pro", sans-serif;
+}
+header nav ul li a:hover {
+  color: #76e67d;
 }
 
-.nabvar{
-display: flex;
-gap: .625rem;
-list-style: none;
-justify-content: center;
+.section-principal {
+  background-image: url(../assent/img/fondohome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 90%;
+  height: 500px;
+}
+.section-principal div {
+  display: flex;
+  justify-content: center;
+}
+.section-principal div h1 {
+  color: black;
+  font-size: 55px;
+  text-shadow: 2px 2px black;
+}
+.section-principal div .ImagenInicio {
+  display: flex;
 }
 
-.nabvar li a {
-    text-decoration: none;
-    color: #CCFFBD;
-    font-size: 40px;
+.section-secundaria {
+  background-color: #455899;
+  display: flex;
+  text-align: center;
 }
- 
-
-
-/*
-como gemeramos nombres a las clases - id
-
-camelCase: sectionPrincipal :D
-kebab: section-principal :D
-snake: section_principal
-BEM: bloque 
-*/
-
-.sectionPrincipal{
-width: 100%;
-height: 500px;
-display: flex;
-align-items: center;
-background-image: url(../assent/img/montañaback.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 50%;
+.section-secundaria div h2 {
+  font-size: 35px;
+  color: #76e67d;
+  text-shadow: 2px 2px black;
 }
-
-
-.sectionPrincipal div{
-color: #CCFFBD;
-margin-top: -340px;
+.section-secundaria div p {
+  color: #76e67d;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
 }
-
-.sectionPrincipal h1{
-    font-size: 60px;
-}
-
-.sectionSecundaria{
-width: 100%;
-height: 200px;
-display: flex;
-align-items: center;
-background-image: url(../assent/img/montañafondo.jpg);
-background-position: 50%;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.sectionSecundaria div h2{
-text-align: center;
-    margin-top: 10px;
-color: #CCFFBD;
-text-shadow: 2px 2px black;
-}
-
-.sectionSecundaria div p{
-    margin-left: 25px;
-    text-align: center;
-    color: #CCFFBD;
-    text-shadow: 2px 2px black;
-}
-
-.contenedor button{
-    color: #CCFFBD;
-    font-size: 20px;
-}
-
-.preFooter{
-display: flex;
-justify-content: center;
-background-color: #40394A;
-
-}
-
-.preFooter h3{
-color: #CCFFBD;
-
-
-}
-
-.sectionCuarta{
-display: flex;
-justify-content:center;
-background-color: #40394A;
-}
-
-/*--------------------------TIENDA------------------------*/
-
-.sectionSecundariaTienda{
-    background-image: url(../assent/img/bosquefondotienda.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
-    height: 700px;
-
-}
-
-.sectionSecundariaTienda p{
- color: black;
- height: 40px;
-
-}
-
-
-.sectionPrincipalTienda{
-background-color: #CCFFBD;
-height: 40px;
-
-}
-
-
-.sectionPrincipalTienda h2{
-    text-align: center;
-    font-size: 30px;
-    color: #1C1427;
-}
-
-.bordeTienda {
-width: 320px;
-border: solid 2px rgba(0, 0, 0, 0.041);
-display: flex;
-flex-direction: column;
-align-items: center;
-border-radius: 15px;
-overflow: hidden;
-box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.171);
-}
-
-.sectionCuartaTienda{
-    display: flex;
-    justify-content:center;
-    background-color: #40394A;
-
-}
-
-.preFooterTienda{
-background-color: #40394a;
-display: flex;
-flex-direction: row;
-text-align: center;
-justify-content: center;
-align-items: center;
-}
-
-.preFooterTienda h3{
-    color: #CCFFBD;
-}
-
-
-/*-------------------CONTACTO------------------------------*/
-
-.sectionPrincipalContacto{
-    background-color: #CCFFBD;
-    height: 40px;
-
-}
-
-.sectionPrincipalContacto h1{
-    color: #1C1427;
-    text-align: center;
-font-size: 30px;
-}
-
-.sectionSecundariaContacto{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../assent/img/fondocontacto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    height: 500px;
-}
-
-.mainContacto div{
-font-size: 60px;
-}
-
-.preFooterContacto{
-    background-color: #40394a;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.preFooterContacto h3{
-    color: #CCFFBD;
-}
-
-.sectionCuartaContacto{
-    display: flex;
-    justify-content:center;
-    background-color: #40394A;
-}
-
-/*----------------------------NOSOTROS-------------------------------*/
-
-.sectionPrincipalNosotros{
-background-color: #CCFFBD;    
-height: 40px;
-}
-
-.sectionPrincipalNosotros h1{
-    text-align: center;
-    color: #1C1427;
-    font-size: 30px;
-}
-
-.sectionSecundariaNosotros{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-image: url(../assent/img/fondonosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    height: 600px;
-}
-
-.sectionSecundariaNosotros p{
-    font-size: 25px;
-    text-align: center;
-    color: #CCFFBD;
-    font-weight: bolder ;
-    text-shadow: 2px 2px black;
-}
-
-.nuestraHistoria h1 {
-    color: #CCFFBD;
-    text-align: center;
-    font-size: 30px;
-}
-
-.nuestraHistoria button{
-    font-size: 20px;
-    color: #CCFFBD;
-    border-color: #CCFFBD;
-}
-
-.preFooterNosotros{
-    background-color: #40394a;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.preFooterNosotros h3{
-    color: #CCFFBD;
-}
-
-.sectionCuartaNosotros{
-    display: flex;
-background-color: #40394A;
-justify-content: center;
-}
-
-
-
-
-/*-----------------------NOVEDADES----------------------------*/
-
-
-.sectionPrincipalNovedades{
-    background-color: #CCFFBD;
-    height: 40px;
-
-}
-
-.sectionPrincipalNovedades h2{
-    text-align: center;
-    color: #1C1427;
-    font-size: 30px;
-
-}
-
-.sectionSecundariaNovedades{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../assent/img/cabañafondo.jpg);
-    background-position: 50%;
-    background-size: cover;
-    height: 700px;
-}
- 
-
-.sectionSecundariaNovedades div{
-text-align: center;
-align-items: center;
-justify-content: center;
-}
-
-.bordeNovedades{
-    width: 800px;
-    border: solid 2px rgba(0, 0, 0, 0.041);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.507);
-    margin-top: 20px;
-    
-}
-
-.sectionSecundariaNovedades h3{
-    color: #CCFFBD;
-    text-shadow: 2px 2px black;
-    font-size: 30px;
-}
-
-.sectionSecundariaNovedades p{
-    color: #CCFFBD;
-    text-shadow: 2px 2px black;
-    font-size: 20px;
-}
-
-.preFooterNovedades{
-    background-color: #40394a;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.preFooterNovedades h3{
-    color: #CCFFBD;
-}
-
-
-.sectionCuartaNovedades{
-    display: flex;
-    justify-content:center;
-    background-color: #40394A;
-}
-
-
-
-/*------------RESPONSIVE--------------*/
-
-@media (max-width: 1024px){
-.sectionPrincipal div{
-    flex-direction: column;
-    color: #CCFFBD;
-justify-content: center;
-}
-.sectionSecundaria{
-    display: none;
-}
-} 
-
-
-@media (max-width: 768px){
-    header{
-        flex-direction: column;
-    }
-    .sectionPrincipal div{
-        margin-top: -290px;
-    }
-    .sectionSecundariaNosotros p{
-        font-size: 20px;
-    }
-    .nabvarNosotros li a{
-        font-size: 20px;
-    }
-.sectionPrincipalNosotros h1{
-    font-size: 25px;
-}
-
-.nabvar li a {
-    font-size: 30 px;
-}
-
-}
-
-@media (max-width: 425px){
-    header{
-        flex-direction: column;
-    }
-    .nabvar li a {
-
-        font-size: 20px;
-    }
-    .sectionPrincipal div{
-        margin-top: -270px;
-    }
-    .preFooterNosotros h3{
-        font-size: 20px;
-    }
-
-.sectionSecundariaNosotros p {
-    font-size: 15px;
-}
-
-.nuestraHistoria h1{
-    font-size: 15px;
-}
-
-}
-
-
-/*-------------GRID----------------*/
-
 
 .contenedor {
-  display: grid;
-  grid-template-rows: repeat(1, 50px); 
-  grid-template-columns: repeat(2, 50%); 
-  gap: 5px; 
-background-color: #1C1427;
+  background-color: #868bee;
 }
 
-.nuestraHistoria{
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #00000f;
+}
+
+.sectionPrincipalTienda {
+  display: flex;
+  background-color: #162a4e;
+  justify-content: center;
+}
+.sectionPrincipalTienda h2 {
+  text-align: center;
+  color: #76e67d;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+.sectionSecundariaTienda {
+  background-image: url(../assent/img/fondotienda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9375rem;
+  height: 700px;
+}
+.sectionSecundariaTienda .bordeTienda {
+  width: 320px;
+  border: solid 2px rgba(0, 0, 0, 0.041);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.171);
+}
+.sectionSecundariaTienda div h3 {
+  color: black;
+  text-shadow: 1px 1px #76e67d;
+  font-size: 20px;
+}
+.sectionSecundariaTienda div p {
+  color: black;
+  font-size: 15px;
+}
+
+.preFooter {
+  display: flex;
+  background-color: #00000f;
+  justify-content: center;
+}
+.preFooter h3 {
+  color: #76e67d;
+  text-align: center;
+}
+
+.sectionSecundariaNovedades {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assent/img/fondonove.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.sectionSecundariaNovedades .bordeNovedades {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgba(0, 0, 0, 0.041);
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.507);
+}
+.sectionSecundariaNovedades .bordeNovedades div h3 {
+  color: #76e67d;
+  font-size: 35px;
+  text-shadow: 2px 2px black;
+}
+.sectionSecundariaNovedades .bordeNovedades div p {
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+.tituloInicial {
+  display: flex;
+  background-color: #162a4e;
+  justify-content: center;
+}
+.tituloInicial h2 {
+  text-align: center;
+  color: #76e67d;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+.sectionSecundariaNosotros {
+  background-image: url(../assent/img/fondonosotros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  height: 500px;
+}
+.sectionSecundariaNosotros p {
+  color: whitesmoke;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.nuestraHistoria {
+  background-color: #162a4e;
+}
+.nuestraHistoria h1 {
+  color: #d8c2ff;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+.nuestraHistoria button {
+  color: #d8c2ff;
+  border-color: #d8c2ff;
+  font-size: 20px;
+}
+
+.sectionSecundariaContacto {
+  background-image: url(../assent/img/fondocontacto.jpg);
+  height: 500px;
+  display: flex;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+.sectionSecundariaContacto .arqui {
+  width: 600px;
+}
+.sectionSecundariaContacto .arqui input {
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .sectionPrincipal div {
+    flex-direction: column;
+    color: #CCFFBD;
+    justify-content: center;
+  }
+  .sectionSecundaria {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .sectionPrincipal div {
+    margin-top: -290px;
+  }
+  .sectionSecundariaNosotros p {
+    font-size: 20px;
+  }
+  .nabvarNosotros li a {
+    font-size: 20px;
+  }
+  .sectionPrincipalNosotros h1 {
+    font-size: 25px;
+  }
+  .nabvar li a {
+    font-size: 30 px;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    flex-direction: column;
+  }
+  .nabvar li a {
+    font-size: 16px;
+  }
+  .sectionPrincipal div {
+    margin-top: -270px;
+  }
+  .preFooterNosotros h3 {
+    font-size: 20px;
+  }
+  .sectionSecundariaNosotros p {
+    font-size: 15px;
+  }
+  .nuestraHistoria h1 {
+    font-size: 15px;
+  }
+  .sectionSecundariaContacto .arqui {
+    flex-direction: column;
+    width: 200px;
+  }
+  .sectionSecundariaContacto .arqui input {
+    font-size: 12px;
+  }
+  .sectionSecundariaTienda {
     display: grid;
-    grid-template-rows: repeat(1, 50px); 
-    grid-template-columns: repeat(2, 50%); 
-    gap: 5px; 
-    background-color: #1C1427;
-    align-items: center;
-justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    max-width: 425px;
+  }
+  .sectionSecundariaTienda .bordeTienda {
+    width: 200px;
+    grid-row: span 2;
+  }
+  .sectionSecundariaTienda .bordeTienda img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .sectionSecundariaTienda .bordeTienda h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .sectionSecundariaTienda .bordeTienda p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.contenedor {
+  display: grid;
+  grid-template-rows: repeat(1, 50px);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.3125rem;
 }
 
+.nuestraHistoria {
+  display: grid;
+  grid-template-rows: repeat(1, 50px);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.3125rem;
+}
 
+.section-principal div h1 {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
 
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-/*
-medidas relativas y medidas absolutas
-
-medidas absolutas: medidas que se quedan fijan y no se modifican
-
-pixel: 500px
-
-medidas relativas: son medidas que se pueden modificar 
-
-%= se va a adaptar al ancho de la pantalla
-
-16px= 1rem
-
-
-
-*/
-
-/* margenes de pagina*/
-
+/*# sourceMappingURL=style.css.map */

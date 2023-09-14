@@ -1,0 +1,44 @@
+.section-principal{
+background-image: url(../assent/img/fondohome.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center calc(90%);
+
+    height: 500px;
+    div{
+        display: flex;
+        justify-content: center;
+        h1{
+            color: black;
+            font-size: 55px;
+            text-shadow: 2px 2px black;
+        }
+    .ImagenInicio{
+        display: flex;
+    }
+    }
+}
+
+
+.section-secundaria{
+    background-color: #455899;
+display: flex;
+text-align: center;
+    div{
+        h2{
+            font-size: 35px;
+            color: #76e67d;
+            text-shadow: 2px 2px black;
+        }
+        p{
+            color: #76e67d;
+            font-size: 20px;
+            text-shadow: 2px 2px black;
+        }
+    }
+}
+
+.contenedor{
+    background-color: #868bee;
+}
+

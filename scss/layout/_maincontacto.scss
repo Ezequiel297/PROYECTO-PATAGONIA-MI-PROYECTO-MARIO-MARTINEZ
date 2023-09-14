@@ -1,0 +1,18 @@
+.sectionSecundariaContacto {
+    background-image: url(../assent/img/fondocontacto.jpg);
+    height: 500px;
+    display: flex;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+
+    .arqui {
+        width: 600px;
+
+        input {
+            font-size: 20px;
+        }
+    }
+}
