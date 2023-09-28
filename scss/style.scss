@@ -1,5 +1,6 @@
 @import "./utilities/variables";
 @import "./utilities/mixins";
+@import "./utilities/extend";
 
 @import "./base/reset";
 
@@ -13,8 +14,10 @@
 @import "./layout/mainnosotros";
 @import "./layout/maincontacto";
 
+@import "./layout/media/media1440";
 @import "./layout/media/media1024";
 @import "./layout/media/media768";
 @import "./layout/media/media425";
 @import "./layout/media/grid";
 @import "./layout/media/animacion";
+

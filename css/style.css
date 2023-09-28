@@ -43,7 +43,8 @@ header nav ul li a:hover {
   font-size: 55px;
   text-shadow: 2px 2px black;
 }
-.section-principal div .ImagenInicio {
+
+.ImagenInicio {
   display: flex;
 }
 
@@ -58,9 +59,10 @@ header nav ul li a:hover {
   text-shadow: 2px 2px black;
 }
 .section-secundaria div p {
-  color: #76e67d;
+  color: whitesmoke;
   font-size: 20px;
   text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 .contenedor {
@@ -158,12 +160,12 @@ footer {
   text-shadow: 2px 2px black;
 }
 
-.tituloInicial {
+.tituloInicial, .tituloInicialNov, .tituloInicialCon, .tituloInicialNoso {
   display: flex;
   background-color: #162a4e;
   justify-content: center;
 }
-.tituloInicial h2 {
+.tituloInicial h2, .tituloInicialNov h2, .tituloInicialCon h2, .tituloInicialNoso h2 {
   text-align: center;
   color: #76e67d;
   font-size: 25px;
@@ -178,7 +180,7 @@ footer {
   display: flex;
   height: 500px;
 }
-.sectionSecundariaNosotros p {
+.sectionSecundariaNosotros .parrafo {
   color: whitesmoke;
   font-size: 20px;
   text-shadow: 2px 2px black;
@@ -217,6 +219,17 @@ footer {
   font-size: 20px;
 }
 
+@media (max-width: 1440px) {
+  .sectionSecundariaContacto {
+    height: 800px;
+  }
+  .sectionSecundariaNosotros {
+    height: 700px;
+  }
+  .sectionSecundariaNosotros .parrafo {
+    font-size: 25px;
+  }
+}
 @media (max-width: 1024px) {
   .sectionPrincipal div {
     flex-direction: column;
@@ -295,6 +308,24 @@ footer {
   .sectionSecundariaTienda .bordeTienda p {
     font-size: 20px;
     text-align: center;
+  }
+  .sectionSecundariaNosotros .parrafo {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .sectionSecundariaNovedades .bordeNovedades {
+    width: 350px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .sectionSecundariaNovedades .bordeNovedades div h3 {
+    font-size: 20px;
+  }
+  .sectionSecundariaNovedades .bordeNovedades div p {
+    font-size: 12px;
   }
 }
 .contenedor {

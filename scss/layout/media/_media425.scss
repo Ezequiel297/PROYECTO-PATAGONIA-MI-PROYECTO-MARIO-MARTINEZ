@@ -2,21 +2,37 @@
     header{
         flex-direction: column;
     }
-    .nabvar li a {
+
+    .nabvar {li 
+        a {
         font-size: 16px;
     }
-    .sectionPrincipal div{
+}
+
+    .sectionPrincipal {
+        div{
         margin-top: -270px;
     }
-    .preFooterNosotros h3{
+}
+
+    .preFooterNosotros {
+        h3{
         font-size: 20px;
     }
-.sectionSecundariaNosotros p {
+}
+
+.sectionSecundariaNosotros {
+    p {
     font-size: 15px;
 }
-.nuestraHistoria h1{
+}
+
+.nuestraHistoria {
+    h1{
     font-size: 15px;
 }
+}
+
 .sectionSecundariaContacto{
        .arqui{
 flex-direction: column;
@@ -50,5 +66,30 @@ input{
     }
 }
 
+.sectionSecundariaNosotros {
+    .parrafo{
+    font-size: 12px;
+    margin-top: 20px;
+}
 }
 
+.sectionSecundariaNovedades{
+    .bordeNovedades{
+                width: 350px;
+                height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        div{ 
+            h3{
+               font-size: 20px;
+    }          
+    p{
+        font-size: 12px;
+   }
+  } 
+ }
+
+}
+}

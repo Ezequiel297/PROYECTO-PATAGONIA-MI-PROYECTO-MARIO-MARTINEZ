@@ -1,11 +1,15 @@
 
 @media (max-width: 1024px){
-    .sectionPrincipal div{
+    .sectionPrincipal {
+        div{
         flex-direction: column;
         color: #CCFFBD;
     justify-content: center;
     }
+}
+
     .sectionSecundaria{
         display: none;
     }
-    } 
+
+ } 

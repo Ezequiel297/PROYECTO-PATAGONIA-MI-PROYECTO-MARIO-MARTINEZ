@@ -2,19 +2,34 @@
     header{
         flex-direction: column;
     }
-    .sectionPrincipal div{
+    .sectionPrincipal {
+        div{
         margin-top: -290px;
     }
-    .sectionSecundariaNosotros p{
+}
+
+
+    .sectionSecundariaNosotros {
+        p{
         font-size: 20px;
     }
-    .nabvarNosotros li a{
+}
+
+    .nabvarNosotros {
+        li 
+        a{
         font-size: 20px;
     }
-.sectionPrincipalNosotros h1{
+}
+.sectionPrincipalNosotros {
+    h1{
     font-size: 25px;
 }
-.nabvar li a {
+}
+
+.nabvar {li 
+    a {
     font-size: 30 px;
+}
 }
 }

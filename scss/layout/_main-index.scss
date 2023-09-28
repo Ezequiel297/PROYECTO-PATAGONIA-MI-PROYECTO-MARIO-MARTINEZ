@@ -3,7 +3,6 @@ background-image: url(../assent/img/fondohome.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center calc(90%);
-
     height: 500px;
     div{
         display: flex;
@@ -13,12 +12,12 @@ background-position: center calc(90%);
             font-size: 55px;
             text-shadow: 2px 2px black;
         }
-    .ImagenInicio{
-        display: flex;
-    }
     }
 }
 
+.ImagenInicio{
+    display: flex;
+}
 
 .section-secundaria{
     background-color: #455899;
@@ -30,12 +29,13 @@ text-align: center;
             color: #76e67d;
             text-shadow: 2px 2px black;
         }
-        p{
-            color: #76e67d;
-            font-size: 20px;
-            text-shadow: 2px 2px black;
-        }
+      p{ 
+        color: whitesmoke;
+        font-size: 20px;
+        text-shadow: 2px 2px black;
+        text-align: center;
     }
+}
 }
 
 .contenedor{
