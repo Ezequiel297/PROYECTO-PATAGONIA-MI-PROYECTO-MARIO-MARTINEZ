@@ -1,0 +1,25 @@
+@media (max-width: 375px){
+    .sectionSecundariaTienda{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* Dos columnas iguales */
+        grid-gap: 10px;
+        max-width: 375px;
+        .bordeTienda{
+            width: auto; 
+            grid-column: span 1;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: cover;
+            }
+            h3{
+                font-size: 20px;
+                text-align: center;
+            }
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+        }
+    }
+}

@@ -336,6 +336,31 @@ footer {
     font-size: 12px;
   }
 }
+@media (max-width: 375px) {
+  .sectionSecundariaTienda {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Dos columnas iguales */
+    grid-gap: 10px;
+    max-width: 375px;
+  }
+  .sectionSecundariaTienda .bordeTienda {
+    width: auto;
+    grid-column: span 1;
+  }
+  .sectionSecundariaTienda .bordeTienda img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .sectionSecundariaTienda .bordeTienda h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .sectionSecundariaTienda .bordeTienda p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
 .contenedor {
   display: grid;
   grid-template-rows: repeat(1, 50px);
